@@ -274,7 +274,7 @@ export default function Home() {
     <div
       style={{
         position: "relative",
-        backgroundColor: "#ffffff",
+        backgroundColor: "#faf1fc",
         margin: 0,
         padding: 0,
         boxSizing: "border-box",

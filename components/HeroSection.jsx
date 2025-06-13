@@ -1039,6 +1039,8 @@
 //   );
 // }
 
+// components/HeroSection.jsx
+
 "use client";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
@@ -1464,7 +1466,7 @@ export default function HeroSection() {
           opacity: 0,
         }}
       >
-        {[1000, 1500].map((size, index) => (
+        {["55vw", "80vw"].map((size, index) => (
           <div
             key={index}
             className={`glow-ring ring-${index}`}

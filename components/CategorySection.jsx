@@ -882,6 +882,8 @@
 //   );
 // }
 
+// components/CategorySection.jsx
+
 "use client";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
@@ -916,15 +918,15 @@ export default function CategorySection() {
     tl.to(title, {
       y: 0,
       opacity: 1,
-      duration: 1,
+      duration: 0.8,
       ease: "power2.out",
-      delay: 1,
+      delay: 0.5,
     }).to(
       cards,
       {
         y: 0,
         opacity: 1,
-        duration: 1,
+        duration: 0.8,
         stagger: 0.15,
         ease: "power2.out",
       },
